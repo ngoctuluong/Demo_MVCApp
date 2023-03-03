@@ -1,0 +1,16 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "AboutUs";
+    Layout = "~/Views/Shared/_newLayout.cshtml";
+}
+
+<h1>AboutUs</h1>
+
+<h5>@ViewBag.Message</h5>
+
+<ul>
+    <li>Id: @Model.ProductId</li>
+    <li>Name: @Model.ProductName</li>
+    <li>Quantity: @Model.Quatity</li>
+</ul>
